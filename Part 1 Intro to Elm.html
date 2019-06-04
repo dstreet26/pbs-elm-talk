@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        font-family: 'Arial';
+      }
+
+      .remark-code,
+      .remark-inline-code {
+        font-family: monospace;
+      }
+      .faded {
+        color: #0000008a;
+      }
+      .remark-inline-code {
+        background-color: darkkhaki;
+        padding: 2px 5px 2px 5px;
+
+      }
+
+    </style>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+  </head>
+  <body>
+    
+    <script>
+      var slideshow = remark.create({
+        ratio: '16:9',
+        navigation: {
+          scroll: false,
+          touch: true,
+          click: false
+        },
+        slideNumberFormat: '%current% / %total%',
+        sourceUrl: 'Part 1 Intro to Elm.md'
+      })
+    </script>
+  </body>
+</html>
